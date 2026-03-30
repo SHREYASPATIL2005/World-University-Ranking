@@ -1,0 +1,47 @@
+# ==============================================================================
+# REQUIREMENTS.TXT - Python Package Dependencies
+# ==============================================================================
+#
+# This file lists all Python packages needed to run the app.
+# Install all packages with: pip install -r requirements.txt
+#
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# STREAMLIT - Web App Framework
+# ------------------------------------------------------------------------------
+# Creates the web interface (buttons, sliders, layout)
+# Documentation: https://docs.streamlit.io
+streamlit>=1.28.0
+
+# ------------------------------------------------------------------------------
+# PANDAS - Data Manipulation Library
+# ------------------------------------------------------------------------------
+# Reads CSV files, filters data, performs calculations
+# Think of it as "Excel for Python"
+# Documentation: https://pandas.pydata.org
+pandas>=2.0.0
+
+# ------------------------------------------------------------------------------
+# PLOTLY - Interactive Visualization Library
+# ------------------------------------------------------------------------------
+# Creates beautiful, interactive charts (bar, pie, scatter, heatmap)
+# Charts support hover, zoom, pan, and export
+# Documentation: https://plotly.com/python/
+plotly>=5.18.0
+
+# ------------------------------------------------------------------------------
+# SCIKIT-LEARN - Machine Learning Library
+# ------------------------------------------------------------------------------
+# Provides ML algorithms (we use RandomForestRegressor)
+# Used for predicting university rankings
+# Documentation: https://scikit-learn.org
+scikit-learn>=1.3.0
+
+# ------------------------------------------------------------------------------
+# NUMPY - Numerical Computing Library
+# ------------------------------------------------------------------------------
+# Handles arrays and mathematical operations
+# Used for correlation calculations
+# Documentation: https://numpy.org
+numpy>=1.24.0
